@@ -1,31 +1,9 @@
-#include <iostream>
-using namespace std;
+
+   #include <iostream>  // Include the input-output stream library
+
+using namespace std;  // Use the standard namespace
 
 int main() {
-    // Declare variables
-    int num1, num2, sum;
-
-    // Ask for input
-    cout << "Enter first number: ";
-    cin >> num1;
-
-    cout << "Enter second number: ";
-    cin >> num2;
-
-    // Calculate the sum
-    sum = num1 + num2;
-
-    // Output the result
-    cout << "The sum of " << num1 << " and " << num2 << " is: " << sum << endl;
-
-    // Use an if-else statement
-    if (sum > 0) {
-        cout << "The sum is positive." << endl;
-    } else if (sum < 0) {
-        cout << "The sum is negative." << endl;
-    } else {
-        cout << "The sum is zero." << endl;
-    }
-
-    return 0;
-}
+    cout << "Hello, World!" << endl;  // Output "Hello, World!" to the console
+    return 0;  // Indicate that the program ended successfully
+} 
